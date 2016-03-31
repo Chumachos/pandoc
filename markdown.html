@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="MarkDown" />
+  <title>Gitet II (=^&quot;^=)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Gitet II (=^&quot;^=)</h1>
+<h2 class="author">MarkDown</h2>
+<h3 class="date">Joan Ordinas — 2016-03-15</h3>
+</div>
+<hr />
+<div class="figure">
+<img src="monday.jpg" alt="Dilluns" /><p class="caption">Dilluns</p>
+</div>
+<hr />
+<h1 id="gitet">Gitet</h1>
+<p>Què és <em>Gitet</em>?</p>
+<ul>
+<li><em>Gitet</em> és un petitet primer contacte amb Git i el seu ecosistema</li>
+<li><em>Gitet</em> consta de dues presentacions:
+<ol style="list-style-type: decimal">
+<li><strong>Git i el seu ecosistema</strong></li>
+<li><strong>Markdown</strong></li>
+</ol></li>
+<li><em>Gitet</em> està disponible en un repositori de <a href="https://github.com/fadado/gitet">GitHub</a> i un de <a href="https://gitlab.com/jordinas/gitet/">GitLab</a></li>
+<li><em>Gitet</em> està escrit amb <a href="http://daringfireball.net/projects/markdown/">Markdown</a> i generat amb <a href="http://pandoc.org/">Pandoc</a></li>
+<li><em>Gitet</em> és un exemple de la filosofia <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">Eating your own dog food</a></li>
+</ul>
+<hr />
+<h1 id="què-és-markdown">Què és Markdown?</h1>
+<blockquote>
+<ul>
+<li><em>Markdown</em> és un llenguatge de marques extremadament simple,</li>
+<li>que permet escriure utilitzant simple text per després convertir-lo en altres formats.</li>
+<li><em>Markdown</em> va ser creat originalment per John Gruber i <a href="https://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a> (<a href="http://www.mejorenvo.com/descargar-The-Internets-Own-Boy-The-Story-of-Aaron-Swartz-pelicula-12448.html">película</a>)</li>
+<li>prenent inspiració en les convencions tradicionals a l’hora de formatar text en correus electrònics.</li>
+<li><em>Markdown</em> no és més que <strong>simple text</strong> amb certes convencions!</li>
+</ul>
+</blockquote>
+<hr />
+<h1 id="alternatives-a-markdown">Alternatives a MarkDown</h1>
+<p>Aquestes alternatives són molt més complexes i <em>potents</em> que MarkDown.</p>
+<ul>
+<li><a href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">reStructuredText</a> (documentació de Python)</li>
+<li><a href="view-source:http://www.methods.co.nz/asciidoc/article.txt">AsciiDoc</a> (documentació del Kernel de Linux)</li>
+</ul>
+<hr />
+<h1 id="és-markdown-realment-important">És Markdown realment important?</h1>
+<ul>
+<li>Evolució del interès segons <a href="https://www.google.com/trends/explore#q=markdown">Google Trends</a></li>
+<li>Llista d’implementacions segons la <a href="https://en.wikipedia.org/wiki/Markdown">pàgina de la Wikipedia</a></li>
+</ul>
+<hr />
+<h1 id="documentació-sobre-markdown">Documentació sobre Markdown</h1>
+<ul>
+<li><a href="http://daringfireball.net/projects/markdown/">Documentació original de John Gruber</a></li>
+<li><a href="http://packetlife.net/media/library/16/Markdown.pdf">Xuleta d’una pàgina</a></li>
+<li><a href="http://stationinthemetro.com/wp-content/uploads/2013/04/Markdown_Cheat_Sheet_v1-1.pdf">Xuleta de dues pàgines</a></li>
+<li><a href="https://help.github.com/categories/writing-on-github/">Extensions a Markdown de GitHub</a></li>
+<li><a href="http://pandoc.org/README.html#pandocs-markdown">Extensions a Markdown de Pandoc</a></li>
+</ul>
+<hr />
+<h1 id="software-a-usar">Software a usar</h1>
+<p>A executar en un terminal com <em>root</em> (<code>yum</code> o <code>dnf</code>):</p>
+<pre><code>yum -y install geany geany-plugins-markdown
+yum -y install pandoc texlive
+yum -y install aspell aspell-ca</code></pre>
+<p>També és practic usar <em>Google Chrome</em> amb la extensió <em>MarkDown Preview Plus</em> o equivalent.</p>
+<p>Podem corregit l’ortografia dels documents fets amb Markdown amb ordres com aquesta:</p>
+<pre><code>aspell --lang=ca check README.md</code></pre>
+<hr />
+<h1 id="què-farem">Què farem?</h1>
+<ul>
+<li>Crear un repositori local de Git pel nostre projecte</li>
+<li>Editar Markdown amb Geany</li>
+<li>Convertir Markdown a HTML, ODT, PDF, &amp;c. amb <a href="http://pandoc.org/demos.html">Pandoc</a></li>
+<li>Visualitzar Markdown una vegada pujat a <a href="https://github.com/">GitHub</a> o <a href="https://gitlab.com/">GitLab</a></li>
+<li>Editar Markdown amb <a href="http://dillinger.io/">http://dillinger.io/</a></li>
+<li>Modificar Gitet i pujar els canvis a GitHub</li>
+<li>&amp;c.</li>
+</ul>
+<hr />
+<div class="figure">
+<img src="end.jpg" alt="Final" /><p class="caption">Final</p>
+</div>
+<!--
+vim:syntax=markdown:et:ts=4:sw=4:ai
+-->
+</body>
+</html>
