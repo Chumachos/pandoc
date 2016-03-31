@@ -2,6 +2,7 @@
 pagetitle: "attach"
 description: "The attach command description and usage"
 keywords: ["attach, running, container"]
+bg-color: "C9F9FF"
 ...
 
 # attach

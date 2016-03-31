@@ -1,12 +1,8 @@
-<!--[metadata]>
-+++
-title = "build"
-description = "The build command description and usage"
-keywords = ["build, docker, image"]
-[menu.main]
-parent = "smn_cli"
-+++
-<![end-metadata]-->
+---
+pagetitle: "build"
+description: "The build command description and usage"
+keywords: ["build, docker, image"]
+...
 
 # build
 
